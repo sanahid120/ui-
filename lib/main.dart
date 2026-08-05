@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_design/homepage.dart';
+import 'package:ui_design/tasklist.dart';
 
 void main() {
   runApp(MyApp() );
@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Homepage(),
+      home: TaskList(),
 
     );
   }
